@@ -13,7 +13,7 @@ C++ клиент для просмотра ASCII-анимаций с [ascii.live
 
 ### Linux (вручную)
 ```bash
-git clone https://github.com/ваш-логин/ascii-live-client.git
+git clone https://github.com/FenchsApps/ascii-live-client.git
 cd ascii-live-client
 make && sudo make install
 ```
