@@ -20,8 +20,10 @@ make && sudo make install
 
 ### Arch Linux (из AUR)
 ```bash
+yay -Sua
 yay -S ascii-live-client
 # или
+paru -Sua
 paru -S ascii-live-client
 ```
 
