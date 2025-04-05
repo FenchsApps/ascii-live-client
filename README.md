@@ -1,3 +1,58 @@
+#ENG
+# ASCII Live Client 🖥️🎨  
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+
+A C++ client for viewing ASCII animations from [ascii.live](https://ascii.live) directly in your terminal.  
+
+![Example](https://ascii.live/examples/nyan.gif)  
+*(Example of the `nyan` animation)*  
+
+## 📦 Installation  
+
+### Linux (Manual)  
+```bash  
+git clone https://github.com/FenchsApps/ascii-live-client.git  
+cd ascii-live-client  
+make && sudo make install  
+```  
+
+
+### Dependencies  
+- `curl` (for downloading animations)  
+- `g++` (for compilation)  
+
+## 🚀 Usage  
+```bash  
+ascii_live_client          # List available animations  
+ascii_live_client nyan     # Play the "nyan" animation  
+ascii_live_client dvd      # Play the "dvd" animation  
+```  
+
+## 📜 Animation List  
+- `batman`, `dvd`, `spidyswing`, `nyan`, `donut`  
+- `clock`, `rick`, `bomb`, `earth`, `kitty`  
+*(Full list available in the [source code](src/client.cpp))*  
+
+## 🛠️ Building from Source  
+```bash  
+make          # Compile  
+make install  # Install  
+make clean    # Clean build files  
+```  
+
+## 🤝 Contributing  
+1. Clone the repository:  
+   ```bash  
+   git clone https://github.com/FenchsApps/ascii-live-client.git  
+   ```  
+2. Make your changes and submit a Pull Request.  
+
+## 📜 License  
+MIT © [FenchsApps](https://github.com/FenchsApps)
+
+#RUS
+
 
 # ASCII Live Client 🖥️🎨
 
@@ -16,15 +71,7 @@ C++ клиент для просмотра ASCII-анимаций с [ascii.live
 git clone https://github.com/FenchsApps/ascii-live-client.git
 cd ascii-live-client
 make && sudo make install
-```
 
-### Arch Linux (из AUR)
-```bash
-yay -Sua
-yay -S ascii-live-client
-# или
-paru -Sua
-paru -S ascii-live-client
 ```
 
 ### Зависимости
@@ -58,6 +105,6 @@ make clean    # Очистка
 2. Внесите изменения и создайте Pull Request.
 
 ## 📜 Лицензия
-MIT © [FenchsApps](https://github.com/ваш-логин)
+MIT © [FenchsApps](https://github.com/FenchsApps)
 ```
 
